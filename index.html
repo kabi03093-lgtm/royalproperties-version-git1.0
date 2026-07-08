@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Royal Properties</title>
+  <meta name="description" content="DTCP-approved plots, villas, farm lands and commercial property in Kanchipuram — verified titles, honest pricing, Royal Properties.">
+  <meta property="og:title" content="Home | Royal Properties">
+  <meta property="og:description" content="DTCP-approved plots, villas, farm lands and commercial property in Kanchipuram — verified titles, honest pricing, Royal Properties.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <nav>
+    <a href="./index.html" class="logo">
+      <svg viewBox="0 0 40 40" fill="none"><path d="M20 4 L24 12 L20 9 L16 12 Z" fill="#D4AF37"/><rect x="10" y="14" width="20" height="20" rx="2" fill="#0B0B0B"/><rect x="14" y="20" width="4" height="4" fill="#D4AF37"/><rect x="22" y="20" width="4" height="4" fill="#D4AF37"/><rect x="18" y="28" width="4" height="6" fill="#D4AF37"/></svg>
+      ROYAL <span>PROPERTIES</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="./properties.html">Properties</a>
+      <a href="./services.html">Services</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./testimonials.html">Testimonials</a>
+      <a href="./blog.html">Blog</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <a href="tel:+918489594590" class="icon-btn" aria-label="Call">☎</a>
+      <a href="https://wa.me/918489594590" target="_blank" class="icon-btn" aria-label="WhatsApp">☏</a>
+      <a href="./admin/login.html" class="btn btn-outline btn-sm">Admin Login</a>
+      <button class="icon-btn" id="menuToggle" aria-label="Menu" style="display:none;">☰</button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="eyebrow">Kanchipuram · Chennai Metro Region</p>
+      <h1>Find your dream property with <em>Royal Properties</em></h1>
+      <p class="lead">DTCP-approved plots, villas and farm lands built on one principle since day one — every title, every survey line, verified before it ever reaches you.</p>
+      <div class="hero-ctas">
+        <a href="./properties.html" class="btn btn-gold">Explore Properties</a>
+        <a href="./contact.html" class="btn btn-outline" style="border-color:rgba(255,255,255,0.3); color:#fff;">Contact Agent</a>
+      </div>
+      <div class="hero-trust">
+        <div><strong>500+</strong><span>Properties sold</span></div>
+        <div><strong>12 yrs</strong><span>In Kanchipuram</span></div>
+        <div><strong>100%</strong><span>Verified titles</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="frame"></div>
+      <div class="card-float">
+        <div><strong>Vaanam Farm Estate</strong><span>Sriperumbudur Rd · 2.5 acres</span></div>
+        <div style="color:#2F7D45; font-weight:700; font-size:1.3rem;">✓</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="search-panel">
+  <div class="search-card">
+    <div class="field">
+      <label>Location</label>
+      <select><option>Kanchipuram</option><option>Sriperumbudur</option><option>Chennai — Outer Ring Rd</option><option>Vandalur</option><option>Walajabad</option></select>
+    </div>
+    <div class="field">
+      <label>Property Type</label>
+      <select><option>Residential Plot</option><option>Villa</option><option>Farm Land</option><option>Commercial</option></select>
+    </div>
+    <div class="field">
+      <label>Budget</label>
+      <select><option>₹10L – ₹25L</option><option>₹25L – ₹50L</option><option>₹50L – ₹1Cr</option><option>₹1Cr+</option></select>
+    </div>
+    <div class="field">
+      <label>Area (sq.ft)</label>
+      <input type="text" placeholder="e.g. 1200+">
+    </div>
+    <button class="btn btn-gold">Search</button>
+  </div>
+</div>
+
+<section id="properties">
+  <div class="wrap">
+    <div class="properties-header">
+      <div class="section-head" style="margin-bottom:0;">
+        <p class="eyebrow">Featured Listings</p>
+        <h2>Handpicked properties, verified end to end</h2>
+      </div>
+      <a href="./properties.html" class="btn btn-outline-gold btn-sm">View all properties →</a>
+    </div>
+    <div class="property-grid" id="propertyGrid">
+
+      <div class="property-card" data-reveal>
+        <div class="property-media">
+          <div class="ph"></div>
+          <span class="status-pill">Ready to Move</span>
+          <button class="fav-btn" aria-label="Save">♡</button>
+        </div>
+        <div class="property-body">
+          <p class="property-type">Residential Plot</p>
+          <h3>Royal Garden Enclave</h3>
+          <p class="property-loc">📍 Walajabad Road, Kanchipuram</p>
+          <div class="property-meta"><span>1800 sq.ft</span><span>DTCP Approved</span></div>
+          <div class="property-foot">
+            <div class="price">₹32.4L <span>/ plot</span></div>
+            <a href="./property-details.html" class="btn btn-outline btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card" data-reveal>
+        <div class="property-media">
+          <div class="ph"></div>
+          <span class="status-pill ready">Under Construction</span>
+          <button class="fav-btn" aria-label="Save">♡</button>
+        </div>
+        <div class="property-body">
+          <p class="property-type">Villa</p>
+          <h3>Sundaram Villa Row</h3>
+          <p class="property-loc">📍 Sriperumbudur Road</p>
+          <div class="property-meta"><span>4 BHK</span><span>2400 sq.ft</span></div>
+          <div class="property-foot">
+            <div class="price">₹1.85Cr <span>onwards</span></div>
+            <a href="./property-details.html" class="btn btn-outline btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card" data-reveal>
+        <div class="property-media">
+          <div class="ph"></div>
+          <span class="status-pill">New Launch</span>
+          <button class="fav-btn" aria-label="Save">♡</button>
+        </div>
+        <div class="property-body">
+          <p class="property-type">Farm Land</p>
+          <h3>Vaanam Farm Estate</h3>
+          <p class="property-loc">📍 Uthiramerur Belt</p>
+          <div class="property-meta"><span>2.5 acres</span><span>Borewell + Fencing</span></div>
+          <div class="property-foot">
+            <div class="price">₹68L <span>/ acre</span></div>
+            <a href="./property-details.html" class="btn btn-outline btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card" data-reveal>
+        <div class="property-media">
+          <div class="ph"></div>
+          <span class="status-pill ready">Ready to Move</span>
+          <button class="fav-btn" aria-label="Save">♡</button>
+        </div>
+        <div class="property-body">
+          <p class="property-type">Commercial</p>
+          <h3>Madam Street Business Suites</h3>
+          <p class="property-loc">📍 Kanchipuram Town</p>
+          <div class="property-meta"><span>950 sq.ft</span><span>Ground Floor</span></div>
+          <div class="property-foot">
+            <div class="price">₹96L <span>/ unit</span></div>
+            <a href="./property-details.html" class="btn btn-outline btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card" data-reveal>
+        <div class="property-media">
+          <div class="ph"></div>
+          <span class="status-pill">Booking Open</span>
+          <button class="fav-btn" aria-label="Save">♡</button>
+        </div>
+        <div class="property-body">
+          <p class="property-type">Residential Plot</p>
+          <h3>Heritage Hills Layout</h3>
+          <p class="property-loc">📍 Chennai–Bengaluru Highway</p>
+          <div class="property-meta"><span>2400 sq.ft</span><span>RERA Registered</span></div>
+          <div class="property-foot">
+            <div class="price">₹45.6L <span>/ plot</span></div>
+            <a href="./property-details.html" class="btn btn-outline btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card" data-reveal>
+        <div class="property-media">
+          <div class="ph"></div>
+          <span class="status-pill ready">Ready to Move</span>
+          <button class="fav-btn" aria-label="Save">♡</button>
+        </div>
+        <div class="property-body">
+          <p class="property-type">Villa</p>
+          <h3>Golden Palm Residency</h3>
+          <p class="property-loc">📍 Vandalur–Kelambakkam Rd</p>
+          <div class="property-meta"><span>3 BHK</span><span>1950 sq.ft</span></div>
+          <div class="property-foot">
+            <div class="price">₹1.24Cr <span>onwards</span></div>
+            <a href="./property-details.html" class="btn btn-outline btn-sm">View Details</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <div class="wrap">
+    <div class="section-head center">
+      <p class="eyebrow" style="justify-content:center;">Why Royal Properties</p>
+      <h2>Every deal, secured before it's signed</h2>
+      <p>We built our name on the paperwork nobody else wants to double-check — so you never have to.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card tick" data-reveal>
+        <p class="num">01</p>
+        <h3>15+ Years Experience</h3>
+        <p>Deep-rooted local expertise across Kanchipuram and the Chennai growth corridor.</p>
+      </div>
+      <div class="why-card tick" data-reveal>
+        <p class="num">02</p>
+        <h3>Verified Properties</h3>
+        <p>Every plot cross-checked for title, encumbrance and DTCP/RERA approval.</p>
+      </div>
+      <div class="why-card tick" data-reveal>
+        <p class="num">03</p>
+        <h3>Legal Assistance</h3>
+        <p>In-house documentation support from enquiry to registration, at no extra cost.</p>
+      </div>
+      <div class="why-card tick" data-reveal>
+        <p class="num">04</p>
+        <h3>Trusted Investment</h3>
+        <p>Data-backed guidance on appreciation zones before you commit capital.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat"><strong data-count="500">0</strong><span>Properties Sold</span></div>
+      <div class="stat"><strong data-count="1200">0</strong><span>Happy Clients</span></div>
+      <div class="stat"><strong data-count="15">0</strong><span>Years of Experience</span></div>
+      <div class="stat"><strong data-count="30">0</strong><span>Partner Companies</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="stories">
+  <div class="wrap">
+    <div class="section-head center">
+      <p class="eyebrow" style="justify-content:center;">Client Stories</p>
+      <h2>What our buyers and investors say</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card" data-reveal>
+        <div class="stars">★★★★★</div>
+        <p>"Bought a farm plot near Uthiramerur — the team handled patta transfer and EC verification without a single follow-up call from my side."</p>
+        <div class="testi-who"><div class="avatar"></div><div><strong>Ramesh Kumar</strong><span>Farm Land Buyer, Chennai</span></div></div>
+      </div>
+      <div class="testi-card" data-reveal>
+        <div class="stars">★★★★★</div>
+        <p>"We were first-time buyers and nervous about it. Royal Properties walked us through every clause before we signed anything."</p>
+        <div class="testi-who"><div class="avatar"></div><div><strong>Priya & Arun</strong><span>First-Time Buyers</span></div></div>
+      </div>
+      <div class="testi-card" data-reveal>
+        <div class="stars">★★★★★</div>
+        <p>"Three plot investments in two years, each appreciating faster than my bank FD. Their local market read is genuinely sharp."</p>
+        <div class="testi-who"><div class="avatar"></div><div><strong>Suresh Babu</strong><span>Property Investor</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="blog" style="background:var(--ivory);">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Insights</p>
+      <h2>Latest from the Royal Properties journal</h2>
+    </div>
+    <div class="blog-grid">
+      <div class="blog-card" data-reveal>
+        <div class="blog-media"></div>
+        <div class="blog-body">
+          <p class="blog-tag">Buying Guide</p>
+          <h3>DTCP vs RERA — what every plot buyer must check</h3>
+          <p>A plain-language breakdown of the two approvals that matter most.</p>
+        </div>
+      </div>
+      <div class="blog-card" data-reveal>
+        <div class="blog-media"></div>
+        <div class="blog-body">
+          <p class="blog-tag">Market Watch</p>
+          <h3>Why the Chennai–Bengaluru corridor is heating up</h3>
+          <p>Infrastructure projects reshaping land values around Kanchipuram.</p>
+        </div>
+      </div>
+      <div class="blog-card" data-reveal>
+        <div class="blog-media"></div>
+        <div class="blog-body">
+          <p class="blog-tag">Investment</p>
+          <h3>Farm land as a five-year investment: a real breakdown</h3>
+          <p>Yields, resale timelines and the questions to ask before you buy.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head center">
+      <p class="eyebrow" style="justify-content:center;">FAQ</p>
+      <h2>Questions we hear the most</h2>
+    </div>
+    <div class="faq">
+      <div class="faq-item open">
+        <div class="faq-q"><span>Are all your plots DTCP or RERA approved?</span><span class="plus">+</span></div>
+        <div class="faq-a" style="max-height:80px;"><p>Yes — every plot listing on our site carries a DTCP or RERA approval number, verified before it's published.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Do you assist with home loans?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>We work with partner banks and NBFCs and can connect you directly with a loan officer at no cost to you.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Can I schedule a site visit before booking?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>Absolutely. Site visits can be booked directly from any property page or by calling our office.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>What documents do I need to register a plot?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>Our legal team provides a checklist tailored to your purchase and handles registration paperwork with you.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Do you buy back or resell properties?</span><span class="plus">+</span></div>
+        <div class="faq-a"><p>Yes, our resale desk helps existing clients list and sell properties bought through Royal Properties.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="newsletter" data-reveal>
+      <div>
+        <h2>Get new listings before anyone else</h2>
+        <p>One short email a week — new plots, price drops, and market notes from Kanchipuram.</p>
+      </div>
+      <form class="newsletter-form" data-demo-form data-success-msg="Subscribed! Watch your inbox for new listings.">
+        <input type="email" placeholder="Your email address" required>
+        <button class="btn btn-gold" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Visit Us</p>
+      <h2>Come talk to us over a cup of filter coffee</h2>
+    </div>
+    <div class="map-section">
+      <div class="map-visual"><div class="map-pin"></div></div>
+      <div class="map-info">
+        <h3>Royal Properties</h3>
+        <div class="contact-row"><span class="ico">📍</span><span>#29B/5H, Madam Street, Kanchipuram – 631501, Tamil Nadu</span></div>
+        <div class="contact-row"><span class="ico">☎</span><span>84895 94590</span></div>
+        <div class="contact-row"><span class="ico">✉</span><span>royalproperties@gmail.com</span></div>
+        <div class="contact-row"><span class="ico">🌐</span><span>www.royalproperties.com</span></div>
+        <div class="contact-row"><span class="ico">九</span><span>Mon – Sat, 9:30 AM – 7:00 PM</span></div>
+        <a href="https://wa.me/918489594590" target="_blank" class="btn btn-gold" style="width:fit-content; margin-top:10px;">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="./index.html" class="logo">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 4 L24 12 L20 9 L16 12 Z" fill="#D4AF37"/><rect x="10" y="14" width="20" height="20" rx="2" fill="#FFFFFF" fill-opacity="0.08"/><rect x="14" y="20" width="4" height="4" fill="#D4AF37"/><rect x="22" y="20" width="4" height="4" fill="#D4AF37"/><rect x="18" y="28" width="4" height="6" fill="#D4AF37"/></svg>
+          ROYAL <span style="color:#D4AF37;">PROPERTIES</span>
+        </a>
+        <p>Smart investment, secure future — residential plots, villas, farm lands and commercial spaces across Kanchipuram and the Chennai growth corridor.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">yt</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./properties.html">Properties</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="./properties.html?type=Residential+Plot">Residential Plots</a></li>
+          <li><a href="./properties.html?type=Villa">Villas</a></li>
+          <li><a href="./properties.html?type=Farm+Land">Farm Lands</a></li>
+          <li><a href="./properties.html?type=Commercial">Commercial Properties</a></li>
+          <li><a href="./services.html">Property Investment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="./terms-conditions.html">Terms &amp; Conditions</a></li>
+          <li><a href="./faq.html">RERA Disclosures</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Royal Properties. All rights reserved.</span>
+      <span>Managing Director — E. Peter Partheepan, M.E.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/918489594590" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.8 1 3.9 1.5 6 1.5h.1c6.6 0 12-5.4 12-12s-5.4-12-12-12zm0 21.8h-.1c-1.9 0-3.7-.5-5.3-1.4l-.4-.2-4.6 1.2 1.2-4.5-.2-.4C5.6 18 5 16.6 5 15c0-6.1 5-11 11-11s11 4.9 11 11-5 11-11 11zm6-8.2c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2s-.8 1-1 1.2-.4.2-.7.1c-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2.1 3.2 5 4.4.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
